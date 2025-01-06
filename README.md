@@ -1,8 +1,8 @@
-### passwords
+# passwords
 Generate passwords with ease of JavaScript.
 Requirements:
 node
-# Usage
+#### Usage
 ```
 Password Generator Script
 
