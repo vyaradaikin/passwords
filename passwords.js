@@ -6,7 +6,7 @@ function displayHelp() {
 Password Generator Script
 
 Usage:
-  password-gen.js <symbols|ranges> <length> [number_of_passwords] [--silent|-s]
+  passwords.js <symbols|ranges> <length> [number_of_passwords] [--silent|-s]
 
 Parameters:
   <symbols|ranges>         A string defining the symbols to use in password generation.
@@ -23,16 +23,16 @@ Parameters:
 
 Examples:
   Generate a single password of length 12 with symbols:
-    ./password-gen.js 'a-z,0-9,!@#$' 12
+    ./passwords.js 'a-z,0-9,!@#$' 12
 
   Generate 3 passwords of length 10 with upper- and lowercase letters:
-    ./password-gen.js 'A-Z,a-z' 10 3
+    ./passwords.js 'A-Z,a-z' 10 3
 
   Generate a password with only specific symbols:
-    ./password-gen.js '!@#$%^&*()' 16
+    ./passwords.js '!@#$%^&*()' 16
 
   Show this help message:
-    ./password-gen.js --help
+    ./passwords.js --help
   `);
 }
 
